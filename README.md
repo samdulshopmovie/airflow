@@ -30,7 +30,7 @@ cat $AIRFLOW_HOME/standalone_admin_password.txt
 ```
 
 ### Branch strategy
-- (how to branch merge)[https://github.com/samdulshopmovie/airflow/issues/1]
+- [how to branch merge](https://github.com/samdulshopmovie/airflow/issues/1)
 
 ### Ref
 - https://airflow.apache.org/docs/apache-airflow/stable/index.html
