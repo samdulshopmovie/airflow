@@ -32,5 +32,22 @@ cat $AIRFLOW_HOME/standalone_admin_password.txt
 ### Branch strategy
 -  ![Static Badge](https://img.shields.io/badge/branch-strategy-blue?labelColor=lime&logo=Gitea) [how to branch merge](https://github.com/samdulshopmovie/airflow/issues/1)
 
+### Tested environment
+```
+$ uname -a
+Linux LAPTOP-RALEOMTL 5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+
+$ cat /etc/issue
+Ubuntu 22.04.3 LTS \n \l
+
+$ pyenv -v
+pyenv 2.4.7
+
+$ pyenv shell air
+(air) $ python -V
+Python 3.11.9
+(air) $ airflow version
+2.9.3
+```
 ### Ref
 - https://airflow.apache.org/docs/apache-airflow/stable/index.html
